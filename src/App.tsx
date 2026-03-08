@@ -7,23 +7,23 @@ const START_DATE = new Date('2025-08-03T00:00:00');
 
 const MEMORIES = [
   {
-    url: '../foto1.jpeg',
+    url: './foto1.jpeg',
     text: 'Te amo, Te amo e Te amo, não importa o que aconteça, saiba que vou sempre te amar!',
   },
   {
-    url: '/pictures/foto2.jpg',
+    url: './foto2.jpeg',
     text: 'Cada detalhe seu é como o mar, imenso e intenso e me desperta a vontade de me entregar mais e mais.',
   },
   {
-    url: '/pictures/foto3.jpg',
+    url: './foto3.jpeg',
     text: 'Saiba que tudo na minha vida hoje envolve você, não existe mais o thiago sem você na minha vida, obrigado por me completar.',
   },
   {
-    url: '/pictures/foto4.jpg',
+    url: './foto4.jpeg',
     text: 'JA te agradeci por me dar a chance de viver cada dia ao lado da mulher incrivel que você é, mas sempre que puder quero reforçar para você saber que falo serio, então obrigado amor',
   },
   {
-    url: '/pictures/foto5.jpg',
+    url: './foto5.jpeg',
     text: 'Te amo mais que tudo nesse mundo, espero que consiga transmitir um pouco do meu amor com esse presente minha mulher maravilha!',
   }
 ];
