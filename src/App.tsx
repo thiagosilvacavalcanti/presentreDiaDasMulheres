@@ -7,7 +7,7 @@ const START_DATE = new Date('2025-08-03T00:00:00');
 
 const MEMORIES = [
   {
-    url: 'public/foto1.jpeg',
+    url: 'public/pictures/foto1.jpeg',
     text: 'Te amo, Te amo e Te amo, não importa o que aconteça, saiba que vou sempre te amar!',
   },
   {
