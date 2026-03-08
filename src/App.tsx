@@ -245,7 +245,7 @@ export default function App() {
           {/* Hidden Audio Player */}
           <audio 
             ref={audioRef} 
-            src="/musica.mp3" 
+            src="/music.mp3" 
             loop 
             onPlay={() => setIsPlaying(true)}
             onPause={() => setIsPlaying(false)}
