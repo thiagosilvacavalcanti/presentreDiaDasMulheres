@@ -7,29 +7,29 @@ const START_DATE = new Date('2025-08-03T00:00:00');
 
 const MEMORIES = [
   {
-    url: 'public/pictures/foto1.jpeg',
+    url: '/foto1.jpeg',
     text: 'Te amo, Te amo e Te amo, não importa o que aconteça, saiba que vou sempre te amar!',
   },
   {
-    url: 'public/foto2.jpeg',
+    url: '/foto2.jpeg',
     text: 'Cada detalhe seu é como o mar, imenso e intenso e me desperta a vontade de me entregar mais e mais.',
   },
   {
-    url: 'public/foto3.jpeg',
+    url: '/foto3.jpeg',
     text: 'Saiba que tudo na minha vida hoje envolve você, não existe mais o thiago sem você na minha vida, obrigado por me completar.',
   },
   {
-    url: 'public/foto4.jpeg',
+    url: '/foto4.jpeg',
     text: 'JA te agradeci por me dar a chance de viver cada dia ao lado da mulher incrivel que você é, mas sempre que puder quero reforçar para você saber que falo serio, então obrigado amor',
   },
   {
-    url: 'public/foto5.jpeg',
+    url: '/foto5.jpeg',
     text: 'Te amo mais que tudo nesse mundo, espero que consiga transmitir um pouco do meu amor com esse presente minha mulher maravilha!',
   }
 ];
 
 // Placeholder music - you can replace this with your own URL
-const MUSIC_URL = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3';
+const MUSIC_URL = '/music.mp3';
 
 export default function App() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -245,7 +245,7 @@ export default function App() {
           {/* Hidden Audio Player */}
           <audio 
             ref={audioRef} 
-            src="/music/musica.mp3" 
+            src="/musica.mp3" 
             loop 
             onPlay={() => setIsPlaying(true)}
             onPause={() => setIsPlaying(false)}
